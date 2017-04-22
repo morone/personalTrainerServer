@@ -7,6 +7,7 @@ setup(
     install_requires=[
         'flask',
         'sqlite3',
+        'flask_cors',
     ],
     setup_requires=[
         'pytest-runner',
