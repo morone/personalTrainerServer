@@ -6,7 +6,7 @@ class Confef:
 	def __init__(self):
 		self.url = 'http://www.confef.org.br/extra/registrados/mostra_nome.asp'
 
-	def get_user_data(self, username, uf="00", cref=None):
+	def validate_user(self, username, uf="00", cref=None):
 		msg = []
 		payload = [('nome', username), ('uf', uf)]
 		# POST with form-encoded data
