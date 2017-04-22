@@ -1,1 +1,1 @@
-web gunicorn personalTrainerServer:app
+web: gunicorn personalTrainerServer:app
